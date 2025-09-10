@@ -1,0 +1,59 @@
+/* components/Banner.module.css */
+
+.banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-image: url('/images/bannerImg.jpg'); /* Set your background image path */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    color: white;
+    height: 250px; /* Adjust height as needed */
+    background-blend-mode: overlay;
+    background-color: #00000078;
+    .content {
+      max-width: 60%;
+      .activeAds {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #ffca28; /* Adjust color to match the yellow text */
+      }
+      
+      .title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin: 10px 0;
+        color: #fff;
+      }
+      
+      .search {
+        font-size: 1rem;
+        color: #d1d1d1;
+      }
+      
+      .popularSearch {
+        font-weight: bold;
+        margin-right: 5px;
+      }
+    }
+    .adTag {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 0.8rem;
+      color: #d1d1d1;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  

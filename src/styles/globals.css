@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*,::after, ::before, ul, form, a{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+  color: black;
+}
+.container{
+  width: 100%;
+  max-width: 1570px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+.containerFluid{
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.grayBg{
+  background-color: #F5F5F5;
+}
+.section{
+  padding: 60px 0;
+}
+
+/* .price-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    border-left: 0;
+    border-right: 0;
+    padding-left: 10px;
+} */
+
+
+
+
+
+
+.price-card__button:first-child {
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  padding: 5px 10px;
+}
+
+
+
+/* .PriceCardButton {
+  
+} */

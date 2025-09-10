@@ -1,0 +1,12 @@
+.featuredAdd{
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    .addName{
+        width: 25%;
+        display: flex;
+    }
+    .productSlide{
+        width: 85%;
+    }
+}

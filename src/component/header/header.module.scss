@@ -1,0 +1,45 @@
+.headers{
+    background-color: #008acd;
+    padding: 15px 0;
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .HeadWrapper{
+            display: flex;
+            align-items: center;
+            width: 80%;
+        }
+        .menu{
+            ul{
+                display: flex;
+                li{
+                    a{
+                        padding: 20px 20px;
+                        display: block;
+                    }
+                }
+                .userAction{
+                    display: flex;
+                    align-items: center;
+                    margin-left: 30px;
+                        a{
+                            &:first-child{
+                                padding: 10px 20px;
+                                background-color: #fff;
+                                margin-right: 10px;
+                                border-radius: 5px;
+                            }
+                            &:last-child{
+                                padding: 10px 20px;
+                                background-color: #ffca28;
+                                color: #000;
+                                font-weight: 500;
+                                border-radius: 5px;
+                            }
+                        }
+                }
+            }
+        }
+    }
+}
