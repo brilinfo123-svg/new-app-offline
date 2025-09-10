@@ -16,7 +16,7 @@ const header = () => {
           <div className={styles.nav}>
             <div className={styles.HeadWrapper}>
               <div className={styles.logo}>
-                <h4>LOGO</h4>
+                <h4>Building</h4>
               </div>
               <SearchBar />
             </div>
